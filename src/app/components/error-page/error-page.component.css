@@ -1,0 +1,54 @@
+.container {
+    margin-top: 10%;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.custom-btn {
+  background: #eee;
+  color: #5b5b5b;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 13px 29px;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: normal;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.custom-btn .icon {
+  margin-right: 5px;
+}
+
+.custom-btn .text {
+  line-height: 1;
+  margin-left: 5px;
+}
+
+.custom-btn:hover {
+  color: #ffc200;
+}
+
+.custom-btn.custom-btn-bg {
+  background: #474559;
+  color: #ffffff;
+}
+
+.custom-btn.custom-btn-bg:hover {
+  background: #208c61;
+  color: #ffffff !important;
+}
